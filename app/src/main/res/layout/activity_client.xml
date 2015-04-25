@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView2"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.zhongli.elearnclient.Screen
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:id="@+id/Screen" />
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:id="@+id/scrollView3"
+                android:layout_gravity="center_horizontal" >
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="none|text|textMultiLine"
+                    android:ems="10"
+                    android:id="@+id/receiveText"
+                    android:enabled="false"
+                    android:clickable="false"
+                    android:editable="false"
+                    android:textStyle="normal" />
+            </ScrollView>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sendText"
+                android:inputType="text"
+                android:enabled="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chat_But"
+                android:id="@+id/send_but"
+                android:layout_gravity="center_horizontal" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

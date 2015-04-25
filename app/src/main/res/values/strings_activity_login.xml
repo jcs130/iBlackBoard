@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Strings related to login -->
+    <string name="prompt_IP_addr">Server IP address</string>
+    <string name="prompt_chat_port">Chat port</string>
+    <string name="prompt_audio_port">Audio_port</string>
+    <string name="prompt_pic_port">Picture_port</string>
+
+    <string name="client_title">Welcome to iBlackboard</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_save">Save Settings</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_reg">Register</string>
+
+    <string name="error_invalid_email">This username is invalid</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_reg_first">Error, wrong password or username, please register first</string>
+    <string name="error_field_required">This field is required</string>
+</resources>
